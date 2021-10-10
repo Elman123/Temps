@@ -1,0 +1,260 @@
+/*Navbar*/
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Lato,sans-serif;
+  box-sizing: border-box;
+}
+.nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  justify-content: left;
+  
+}
+
+.nav-li{
+  font-size: 15px;
+  padding: 12px 24px!important;
+}
+.nav{
+  background-color: black;
+} 
+
+.nav ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+/*Bcgimg*/
+.bcgimg{
+  background-color: black;
+  height: 100vh;
+  background-size: cover;
+  background-repeat:no-repeat ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mark{
+  text-align: center;
+  padding: 32px 16px;
+}
+
+.word1{
+  font-size: 24px;
+  margin: 10px 0;
+  color:#fff;
+  
+}
+
+.word2{
+font-size: 15px;
+margin: 10px 0;
+color:#fff;
+
+}
+
+/*CardsPage*/
+.cardspage{
+line-height: 1.5;
+display: flex;
+align-items: center;
+padding: 64px 16px;
+flex-direction: column;
+}
+
+/*texts*/
+.title-1{
+  display: flex;
+  font-size: 30px;
+  margin: 10px 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-2{
+  display: flex;
+  font-size: 15px;
+  font-style: italic;
+  margin: 15px 0;
+  opacity: 50%;
+  text-align: center;
+  justify-content: center;
+}
+
+.text{
+  font-size: 15px;
+  margin: 15px;
+  text-align: justify!important;
+  font-weight: 500;
+}
+
+.cards{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 32px 0;
+}
+
+.card-img{
+  width: 55%;
+  margin-bottom:16px;
+}
+
+.img-name{
+margin: 0 0 16px;
+font-size: 16px;
+}
+
+.card{
+  display:flex ;
+  align-items: center;
+  flex-direction: column;
+}
+
+.tours{
+  background-color:black;
+  padding: 64px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.tour-word-1{
+color: #fff;
+font-size: 30px;
+margin: 10px 0;
+letter-spacing: 2px;
+}
+
+.tour-word-2{
+  color: #fff;
+  font-size: 15px;
+  opacity: 50%;
+  font-style: italic;
+  margin: 15px 0;
+}
+
+.tour-date{
+  border-color: black;
+  border-style: inset;
+  border-width: .05px;
+  padding: 8px 25px;
+  padding-right: 980px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+}
+
+.tour-avability{
+  background-color: red;
+  margin-left: 15px;
+  padding:3px 3px 2px 2px;
+}
+
+.tour-month{
+  opacity: 35%;
+}
+
+.contact{
+  font-size: 30px;
+  margin: 10px 0;
+  color: #000000;
+
+}
+
+.fan{
+  margin: 15px 0;
+  font-size: 15px ;
+  font-style: italic;
+  opacity: 40%;
+}
+
+.contactmenu{
+  display: flex;
+  align-items: center;
+  padding:64px 16px;
+  padding-bottom: 80px!important;
+  flex-direction: column;
+}
+
+.form{
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  opacity: 90%;
+  border:black;
+  margin: 8px;
+  
+  
+}
+
+.inputs{
+  display: flex;
+  flex-direction: row;
+}
+
+.input{
+  border-radius: 0!important;
+  border-width: .04px;
+  padding: 8px;
+  margin: 8px;
+  
+}
+
+.input2{
+margin-top: 20px;
+width: 100%;
+padding: 8px;
+border-radius: 0!important;
+border-width: .01px;
+}
+
+.input-menu{
+  padding-top: 32px;
+}
+
+.maincontact{
+  display: flex;
+  flex-direction: column;
+  padding: 18px;
+}
+
+.form-1{
+  margin: 8px;
+}
+
+.form-btn{
+  background-color: black;
+  padding:8px;
+  color: #fff;
+  font-size: 15px;
+  width: 60px;
+  cursor: pointer;
+  margin-top:16px ;
+  border: none;
+  display: flex;
+  justify-content: center;
+
+}
+
+.form-btn a{
+  text-decoration: none;
+  color: #fff;
+
+}
+
+.form-btn a:hover{
+  color: gray;
+}
+
+.button{
+  display: flex;
+  justify-content: flex-end;
+}
+
